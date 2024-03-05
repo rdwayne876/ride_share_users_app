@@ -50,20 +50,6 @@ class _SignUpState extends State<SignUp> {
       builder: (BuildContext context) => LoadingDialog(messageText: "Registering your account...")
     );
 
-  //   final User? userFirebase;
-  //   try {
-  //     final credential = await FirebaseAuth.instance.createUserWithEmailAndPassword(
-  //         email: emailTextEditingController.text.trim(),
-  //         password: passwordTextEditingController.text.trim());
-  //     userFirebase = credential.user;
-  //   } on FirebaseAuthException catch (error) {
-  //     Navigator.pop(context)
-  //     cMethods.displaySnackBar(error.message!.toString(), context);
-  //   }
-  //
-  //   Navigator.pop(context);
-  //
-  //   DatabaseReference usersRef = FirebaseDatabase.instance.ref().child('users').child(userFirebase!.uid);
     final User? userFirebase;
     
     try{
