@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1042272166078",
+    "project_id": "rideshare-1ad1a",
+    "storage_bucket": "rideshare-1ad1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042272166078:android:0a0b161bff3c7dd35bbeef",
+        "android_client_info": {
+          "package_name": "com.gongdev.usersapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFLxWUBYByjs6D-Ubmo6WvrcueZaUIG7c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
